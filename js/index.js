@@ -1098,16 +1098,16 @@
         distance = this.getActualDistance(distance);
         totalNum.innerHTML = distance; //pop 分數
         if(distance === 100){     
-          initHd(id, 1);
+//           initHd(id, 1);
           achievement = true;
         }else if(distance === 200){
-          initHd(id, 2);
+//           initHd(id, 2);
           achievement = true;
         }else if(distance === 300){   
-          initHd(id, 3);
+//           initHd(id, 3);
           achievement = true;
         }else if(distance === 600){   
-          initHd(id, 4);
+//           initHd(id, 4);
           achievement = true;
         }
         if(achievement){
